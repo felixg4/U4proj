@@ -26,26 +26,6 @@ span {
     background-color: #377765;
     color: #d9ed92;
 }
-.block:hover {
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-    animation-name: swapright;
-}
-@keyframes swapright {
-    0% {
-        position: absolute;
-        left: 0px
-    }
-    100% {
-        position:absolute;
-        left:-500px;
-    }
-}
 #score {
     padding: 0px 10px;
     color: #d9ed92;
